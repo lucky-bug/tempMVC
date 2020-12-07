@@ -1,0 +1,19 @@
+{
+    "name": "jane/mvc",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ibrokhim Shokirov",
+            "email": "ibrokhim.shokirov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+      "ext-mysqli": "*"
+    }
+}
